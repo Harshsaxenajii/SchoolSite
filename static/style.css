@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main_con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
