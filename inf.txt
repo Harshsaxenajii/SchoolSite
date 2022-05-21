@@ -1,0 +1,7 @@
+style="
+        background-image: url(../static/images/Navbar-Back.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+      "
