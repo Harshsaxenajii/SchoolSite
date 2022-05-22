@@ -33,6 +33,12 @@ app.get("/index", (req, res) => {
 app.get("/signup", (req, res) => {
   res.render("signup");
 });
+app.get("/contact", (req, res) => {
+  res.render("contact");
+});
+app.get("/payment", (req, res) => {
+  res.render("payment");
+});
 
 //post backend request
 //ALSO USE NPM I BODY PARSER
