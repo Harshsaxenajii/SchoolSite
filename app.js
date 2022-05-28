@@ -47,7 +47,8 @@ app.post("/signup", (req, res) => {
   myData
     .save()
     .then(() => {
-      res.send("this all data is saved in database");
+      // res.send("this all data is saved in database");
+      res.render("login")
     })
     .catch(() => {
       res.status(400).send("this item is not saved in our database");
